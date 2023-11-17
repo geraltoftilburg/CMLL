@@ -1,3 +1,7 @@
+# Install Packages
+Run this code in your terminal to install all requiroed packages:
+pip install -r requirements.txt 
+
 # Pre-Processsing transcripts for LSA 
 
 This script processes .cha files containing child language data to prepare for Latent Semantic Analysis (LSA). It specifically extracts narratives spoken by children (marked by *CHI: in the .cha files), cleans, tokenizes, removes stopwords, stems the words, and then outputs the processed text to a new directory structure.
